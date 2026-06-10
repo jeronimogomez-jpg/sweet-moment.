@@ -3,187 +3,272 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sweet Moment - Brownies Caseros</title>
+<title>Sweet Moment</title>
 
 <style>
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family: Arial, sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
 
 body{
-    background:#f8f3ef;
+background:#f8f3ef;
 }
 
 header{
-    background:#5c3a21;
-    color:white;
-    text-align:center;
-    padding:20px;
+background:#5c3a21;
+color:white;
+text-align:center;
+padding:20px;
 }
 
 nav{
-    background:#7b4f2c;
-    text-align:center;
-    padding:10px;
+background:#7b4f2c;
+padding:15px;
+text-align:center;
 }
 
 nav a{
-    color:white;
-    text-decoration:none;
-    margin:15px;
-    font-weight:bold;
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
 }
 
 .hero{
-    text-align:center;
-    padding:80px 20px;
-    background:url('https://images.unsplash.com/photo-1606313564200-e75d5e30476c') center/cover;
-    color:white;
+background:url('https://images.unsplash.com/photo-1606313564200-e75d5e30476c') center/cover;
+height:500px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
 }
 
 .hero h1{
-    font-size:50px;
-    margin-bottom:15px;
+font-size:60px;
 }
 
 .hero p{
-    font-size:20px;
+font-size:22px;
+margin-top:10px;
 }
 
 .boton{
-    display:inline-block;
-    margin-top:20px;
-    padding:12px 25px;
-    background:#d98c3b;
-    color:white;
-    text-decoration:none;
-    border-radius:5px;
+margin-top:20px;
+background:#d98c3b;
+padding:12px 25px;
+color:white;
+text-decoration:none;
+border-radius:5px;
 }
 
 section{
-    padding:50px 10%;
+padding:50px 10%;
 }
 
 h2{
-    text-align:center;
-    margin-bottom:30px;
-    color:#5c3a21;
+text-align:center;
+margin-bottom:30px;
+color:#5c3a21;
 }
 
 .productos{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
 }
 
 .card{
-    background:white;
-    width:280px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
-    overflow:hidden;
+background:white;
+width:280px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+overflow:hidden;
 }
 
 .card img{
-    width:100%;
-    height:200px;
-    object-fit:cover;
+width:100%;
+height:200px;
+object-fit:cover;
 }
 
 .card h3{
-    padding:15px;
+padding:15px;
 }
 
 .card p{
-    padding:0 15px 15px;
+padding:0 15px 15px;
 }
 
 .precio{
-    color:#d98c3b;
-    font-weight:bold;
-    font-size:20px;
+color:#d98c3b;
+font-size:20px;
+font-weight:bold;
 }
 
 footer{
-    background:#5c3a21;
-    color:white;
-    text-align:center;
-    padding:20px;
+background:#5c3a21;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
 }
 </style>
-
 </head>
+
 <body>
 
 <header>
-    <h1>Sweet Moment</h1>
-    <p>Los brownies que endulzan cada momento</p>
+<h1>Sweet Moment</h1>
+<p>Cada brownie, un momento dulce e inolvidable</p>
 </header>
 
 <nav>
-    <a href="#inicio">Inicio</a>
-    <a href="#nosotros">Nosotros</a>
-    <a href="#productos">Menú</a>
-    <a href="#contacto">Contacto</a>
+<a href="#inicio">Inicio</a>
+<a href="#nosotros">Nosotros</a>
+<a href="#productos">Menú</a>
+<a href="#promociones">Promociones</a>
+<a href="#contacto">Contacto</a>
 </nav>
 
 <section class="hero" id="inicio">
-    <h1>Sweet Moment</h1>
-    <p>Brownies caseros preparados con amor y los mejores ingredientes.</p>
-    <a href="#productos" class="boton">Ver Menú</a>
+<h1>Sweet Moment</h1>
+<p>Brownies artesanales preparados con amor.</p>
+<a href="#productos" class="boton">Ver Menú</a>
 </section>
 
 <section id="nosotros">
-    <h2>Sobre Nosotros</h2>
-    <p>
-        En Sweet Moment elaboramos brownies artesanales con ingredientes de calidad,
-        buscando ofrecer una experiencia dulce y memorable para cada cliente.
-        Nuestro objetivo es brindar un producto delicioso, fresco y accesible para todos.
-    </p>
+<h2>Sobre Nosotros</h2>
+<p style="text-align:center;">
+Sweet Moment es un emprendimiento dedicado a la elaboración de brownies artesanales.
+Nuestro objetivo es ofrecer productos deliciosos, frescos y accesibles para todos los amantes del chocolate.
+</p>
 </section>
 
 <section id="productos">
-    <h2>Nuestro Menú</h2>
 
-    <div class="productos">
+<h2>🍫 Brownies</h2>
 
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1606312619070-d48b4c652a52" alt="Brownie Clásico">
-            <h3>Brownie Clásico</h3>
-            <p>Delicioso brownie de chocolate.</p>
-            <p class="precio">$3.000</p>
-        </div>
+<div class="productos">
 
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Brownie Oreo">
-            <h3>Brownie Oreo</h3>
-            <p>Brownie con trozos de Oreo.</p>
-            <p class="precio">$4.000</p>
-        </div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1606312619070-d48b4c652a52">
+<h3>Brownie Clásico</h3>
+<p>Chocolate artesanal.</p>
+<p class="precio">$3.000</p>
+</div>
 
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e" alt="Brownie Nutella">
-            <h3>Brownie Nutella</h3>
-            <p>Brownie relleno de Nutella.</p>
-            <p class="precio">$5.000</p>
-        </div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587">
+<h3>Brownie Oreo</h3>
+<p>Con trozos de Oreo.</p>
+<p class="precio">$4.000</p>
+</div>
 
-    </div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e">
+<h3>Brownie Nutella</h3>
+<p>Relleno de Nutella.</p>
+<p class="precio">$5.000</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1551024601-bec78aea704b">
+<h3>Brownie M&M</h3>
+<p>Con chocolates M&M.</p>
+<p class="precio">$4.500</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c">
+<h3>Brownie con Helado</h3>
+<p>Acompañado de helado.</p>
+<p class="precio">$7.000</p>
+</div>
+
+</div>
+
+<h2 style="margin-top:60px;">🥤 Bebidas</h2>
+
+<div class="productos">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1622484212850-eb596d769edc">
+<h3>Coca-Cola</h3>
+<p>Bebida personal.</p>
+<p class="precio">$3.000</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1546173159-315724a31696">
+<h3>Jugo Natural</h3>
+<p>Sabores surtidos.</p>
+<p class="precio">$3.500</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e">
+<h3>Malteada</h3>
+<p>Chocolate, vainilla o fresa.</p>
+<p class="precio">$6.000</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93">
+<h3>Café</h3>
+<p>Perfecto para acompañar brownies.</p>
+<p class="precio">$2.500</p>
+</div>
+
+</div>
+
+<h2 style="margin-top:60px;">🔥 Combos Especiales</h2>
+
+<div class="productos">
+
+<div class="card">
+<h3>Combo Sweet</h3>
+<p>Brownie Clásico + Coca-Cola.</p>
+<p class="precio">$5.500</p>
+</div>
+
+<div class="card">
+<h3>Combo Oreo</h3>
+<p>Brownie Oreo + Jugo Natural.</p>
+<p class="precio">$7.000</p>
+</div>
+
+<div class="card">
+<h3>Combo Premium</h3>
+<p>Brownie Nutella + Malteada.</p>
+<p class="precio">$10.000</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="promociones">
+<h2>🎉 Promoción del Mes</h2>
+<p style="text-align:center;font-size:22px;">
+Compra 3 brownies y recibe un 10% de descuento.
+</p>
 </section>
 
 <section id="contacto">
-    <h2>Contáctanos</h2>
-    <p>📱 WhatsApp: +57 300 000 0000</p>
-    <p>📧 Correo: sweetmoment@gmail.com</p>
-    <p>📍 Entregas en el colegio y alrededores.</p>
+<h2>📞 Contáctanos</h2>
+<p style="text-align:center;">📱 WhatsApp: +57 300 000 0000</p>
+<p style="text-align:center;">📧 Correo: sweetmoment@gmail.com</p>
+<p style="text-align:center;">📍 Entregas en el colegio y alrededores.</p>
 </section>
 
 <footer>
-    <p>© 2026 Sweet Moment - Todos los derechos reservados.</p>
+<p>© 2026 Sweet Moment - Todos los derechos reservados.</p>
 </footer>
 
 </body>
