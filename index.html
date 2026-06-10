@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sweet Moment - Brownies Caseros</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f8f3ef;
+}
+
+header{
+    background:#5c3a21;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#7b4f2c;
+    text-align:center;
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:url('https://images.unsplash.com/photo-1606313564200-e75d5e30476c') center/cover;
+    color:white;
+}
+
+.hero h1{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:20px;
+}
+
+.boton{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#d98c3b;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+section{
+    padding:50px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#5c3a21;
+}
+
+.productos{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:280px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding:15px;
+}
+
+.card p{
+    padding:0 15px 15px;
+}
+
+.precio{
+    color:#d98c3b;
+    font-weight:bold;
+    font-size:20px;
+}
+
+footer{
+    background:#5c3a21;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Sweet Moment</h1>
+    <p>Los brownies que endulzan cada momento</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#productos">Menú</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero" id="inicio">
+    <h1>Sweet Moment</h1>
+    <p>Brownies caseros preparados con amor y los mejores ingredientes.</p>
+    <a href="#productos" class="boton">Ver Menú</a>
+</section>
+
+<section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>
+        En Sweet Moment elaboramos brownies artesanales con ingredientes de calidad,
+        buscando ofrecer una experiencia dulce y memorable para cada cliente.
+        Nuestro objetivo es brindar un producto delicioso, fresco y accesible para todos.
+    </p>
+</section>
+
+<section id="productos">
+    <h2>Nuestro Menú</h2>
+
+    <div class="productos">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1606312619070-d48b4c652a52" alt="Brownie Clásico">
+            <h3>Brownie Clásico</h3>
+            <p>Delicioso brownie de chocolate.</p>
+            <p class="precio">$3.000</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Brownie Oreo">
+            <h3>Brownie Oreo</h3>
+            <p>Brownie con trozos de Oreo.</p>
+            <p class="precio">$4.000</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e" alt="Brownie Nutella">
+            <h3>Brownie Nutella</h3>
+            <p>Brownie relleno de Nutella.</p>
+            <p class="precio">$5.000</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>📱 WhatsApp: +57 300 000 0000</p>
+    <p>📧 Correo: sweetmoment@gmail.com</p>
+    <p>📍 Entregas en el colegio y alrededores.</p>
+</section>
+
+<footer>
+    <p>© 2026 Sweet Moment - Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
